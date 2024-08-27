@@ -1,0 +1,21 @@
+[
+    {
+        "nome" : "joao",
+        "numeroTelefone" : "48984041374",
+        "email" : "joao@gmail.com",
+        "redesSociais" : ["instagram", "Twitter"]
+    },
+    {
+        "nome" : "maria",
+        "numeroTelefone" : "48999999999",
+        "email" : "maria@gmail.com",
+        "redesSociais" : ["instagram", "Twitter", "facebook"]
+    },
+    {
+        "nome" : "jasão",
+        "numeroTelefone" : "48977777777",
+        "email" : "jasao@gmail.com",
+        "redesSociais" : ["instagram"]
+    }
+]
+

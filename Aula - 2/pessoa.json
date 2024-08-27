@@ -1,0 +1,13 @@
+{
+    "nome" : "Vinicius",
+    "idade" : 18,
+    "status" : true,
+    "altura" : 1.70,
+    "endereco" : {
+        "logradouro" : "Rua 15",
+        "bairro" : "Pontal",
+        "estado" : "SC",
+        "cidade" : "Palhoça"
+    },
+    "nomeResponsaveis" : ["Jesus", "Nossa Senhora"]
+}

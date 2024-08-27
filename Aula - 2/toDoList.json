@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1,
+        "tarefa" : "fazer café",
+        "prioridade" : "Alta"
+    },
+    {
+        "id" : 2,
+        "tarefa" : "Verificar minhas tarefa",
+        "prioridade":"Alta"
+    },
+    {
+        "id" : 3,
+        "tarefa" : "Perguntar se minha mae precisa de algo",
+        "prioridade" : "Média"
+    }
+]
