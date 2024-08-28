@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h2>Cadastro de usuário</h2>
+        <label for="input-nome">Nome: </label>
+        <input type="text" name="nomeUsuario" id="input-nome" required minlength="3">
+        <br>
+        <label for="input-email">Email: </label>
+        <input type="text" name="emailUsuario" id="input-email" required maxlength="150">
+        <br>
+        <label for="input-senha">Senha: </label>
+        <input type="password" name="senhaUsuario" id="input-senha" required minlength="8">
+        <br>
+        <label for="input-data">Data de nascimento: </label>
+        <input type="date" name="dataUsuario" id="input-data" required>
+        <br>
+        <label for="sexo">Sexo: </label>
+        <label id="sexo">
+            <input type="radio" name="sexo" value="M" required>
+            Masculino
+        </label>
+        <label>
+            <input type="radio" name="sexo" value="F">
+            Feminino
+        </label>
+        <br>
+        <label for="estado-civil"> Modelo </label>
+        <select id="estado-civil" name="estadoCivil" required>
+            <option value=""> selecione uma opção </option>
+            <option value="solteiro"> Solteiro </option>
+            <option value="casado"> Casado </option>
+            <option value="divorciado"> Divorciado </option>
+            <option value="viuvo"> Viúvo </option>
+        </select>
+
+        <br>
+
+        <label for="input-op">Opcionais:</label>
+    
+        <input id="input-op" type="checkbox" name="opcionais">
+        <label for="input-op">Esportes</label>
+    
+        <input id="input-op2" type="checkbox" name="opcionais">
+        <label for="input-op2">Tecnologia</label>
+        
+        <input id="input-op3" type="checkbox" name="opcionais">
+        <label for="input-op3">Artes</label>
+        <br>
+        <button type="reset">Cancelar</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>

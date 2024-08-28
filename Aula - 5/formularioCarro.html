@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Cadastro Veiculo</h1>
+        <label for="nome-carro">Nome:</label>
+        <input type="text" id="nome-carro" placeholder="min. 3 caracteres" name="nome" autofocus required>
+        
+        <br>
+    
+        <label for="input-op">Opcionais:</label>
+    
+        <input id="input-op" type="checkbox" name="opcionais">
+        <label for="input-op">Teto solar</label>
+    
+        <input id="input-op2" type="checkbox" name="opcionais">
+        <label for="input-op2">Banco de couro</label>
+        
+        <input id="input-op3" type="checkbox" name="opcionais">
+        <label for="input-op3">Isofix</label>
+    
+        <br>
+        <label for="marca">Marca:</label>
+        <label>
+            <input type="radio" name="marca" value="Chevrolet">
+            Chevrolet
+        </label>
+        <label>
+            <input type="radio" name="marca" value="Volkswagen">
+            Volkswagen
+        </label>
+        <label>
+            <input type="radio" name="marca" value="Fiat">
+            Fiat
+        </label>
+    
+        <br>
+    
+        <label for="desc">Descrição:</label>
+        <textarea name="desc" id="desc" rows="4" cols="10"></textarea>
+    
+        <br>
+        <label for="modelo"> Modelo </label>
+        <select id="modelo" name="modelo" required>
+            <option value=""> selecione uma opção </option>
+            <option value="astra"> Astra </option>
+            <option value="t-cross"> T-cross </option>
+            <option value="nivus"> Nivus </option>
+            <option value="gol"> Gol </option>
+        </select>
+        <br>
+        <button type="reset">Cancelar</button>
+        <button type="submit">Salvar</button>
+    </form>
+</body>
+</html>
