@@ -1,0 +1,61 @@
+.bg-home {
+    background-image: url("assets/bg.svg");
+}
+
+.header-content{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+i{
+    color: white;
+}
+
+
+.header-button{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.header-button:hover{
+    background-color: red;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font: menu;
+}
+
+.hero{
+    padding-top: 20rem;
+    text-align: center;
+}
+
+h1{
+    font: caption;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+p{
+    font: caption;
+    color: white;
+    font-size: large;
+    margin-bottom: 3rem;
+}
+
+.button-contact{
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    padding: 20px;
+}
+
+.button-contact:hover{
+    background-color: transparent;
+}

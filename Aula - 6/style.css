@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    font: caption;
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+    color: red;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+a:hover{
+    color: blue;
+    font-size: 5rem;
+    text-decoration: underline;
+}
+body{
+    text-align: center;
+}
